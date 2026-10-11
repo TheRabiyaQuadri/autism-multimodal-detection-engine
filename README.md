@@ -45,6 +45,13 @@ While several existing systems address autism detection and therapy recommendati
 
 ---
 
+### Dataset Download
+The raw tabular dataset used for training and evaluation can be obtained directly from Kaggle:
+* **Kaggle Link:** [ASD Screening Data (Toddler, Child, Adoles, Adult)](https://www.kaggle.com/datasets/fabdelja/asd-screening-data-toddler-child-adoles-adult)
+* **Setup Instruction:** Download the dataset CSV file and place it inside the `files/` directory of your project folder (`files/Toddler Autism dataset July 2018.csv`).
+
+---
+
 ## Model Performance & Experimental Results
 
 ### 1. Tabular Machine Learning Models (`train_test_split` with `test_size=0.2, random_state=101`)
