@@ -47,34 +47,34 @@ While several existing systems address autism detection and therapy recommendati
 
 ## Model Performance & Experimental Results
 
-### 1. Tabular Machine Learning Models (`train_test_split` with `test_size=0.2, random_state=101`)[cite: 11]
-* **Decision Tree Classifier:** Accuracy score of `0.8104265402843602` (81.04%)[cite: 7, 11]
-* **Random Forest Classifier:** Accuracy score of `0.7772511848341233` (77.73%)[cite: 7, 11]
-* **Gradient Boosting Classifier:** Accuracy score of `0.6255924170616114` (62.56%)[cite: 7, 11]
-* **AdaBoost Classifier:** Accuracy score of `0.18009478672985782` (18.01%)[cite: 7, 11]
+### 1. Tabular Machine Learning Models (`train_test_split` with `test_size=0.2, random_state=101`)
+* **Decision Tree Classifier:** Accuracy score of `0.8104265402843602` (81.04%)
+* **Random Forest Classifier:** Accuracy score of `0.7772511848341233` (77.73%)
+* **Gradient Boosting Classifier:** Accuracy score of `0.6255924170616114` (62.56%)
+* **AdaBoost Classifier:** Accuracy score of `0.18009478672985782` (18.01%)
 
 ### 2. Deep Learning Image Models & Algorithm Comparison
-* **ResNet 101V2:** Accuracy score of ~77.5%[cite: 6, 10]
-* **ResNet 50:** Accuracy score of ~71.8%[cite: 6, 10]
-* **ResNet 50V2:** Accuracy score of ~70.8%[cite: 6, 10]
-* **VGG19:** Accuracy score of ~66.0%[cite: 6, 10]
+* **ResNet 101V2:** Accuracy score of ~77.5%
+* **ResNet 50:** Accuracy score of ~71.8%
+* **ResNet 50V2:** Accuracy score of ~70.8%
+* **VGG19:** Accuracy score of ~66.0%
 
 ---
 
 ## Evaluation Visualizations
 
 ### Accuracy Score Comparison
-* **Description:** Bar chart comparing accuracy scores across VGG19, Resnet 50, Resnet 50V2, and Resnet 101V2 algorithms[cite: 6, 10].
+* **Description:** Bar chart comparing accuracy scores across VGG19, Resnet 50, Resnet 50V2, and Resnet 101V2 algorithms.
 
 <p align="center">
-  <img src="outputs/accuracy_comparison.png" alt="Accuracy score Comparison" width="85%"/>
+  <img src="assets/image.png" alt="Accuracy score Comparison" width="85%"/>
 </p>
 
 ### ROC Curve
-* **Description:** ROC curve visualization for evaluated image models (VGG, RESNET50, RESNET50V2, RESNET101V2)[cite: 8, 12].
+* **Description:** ROC curve visualization for evaluated image models (VGG, RESNET50, RESNET50V2, RESNET101V2).
 
 <p align="center">
-  <img src="outputs/roc_curve.png" alt="ROC curve" width="85%"/>
+  <img src="assets/ROC.png" alt="ROC curve" width="85%"/>
 </p>
 
 ---
